@@ -26,3 +26,5 @@ values
 
 truncate table employee;
 drop table employee;
+create database amit;
+drop database amit;

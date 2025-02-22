@@ -49,3 +49,10 @@ update emp set name = 'Ninja Hathori'
 where age=19;
 SET SQL_SAFE_UPDATES = 0;
 delete from emp where age<=20;
+
+select * from emp;
+
+create procedure display_emp()
+select * from emp;
+
+call display_emp()
